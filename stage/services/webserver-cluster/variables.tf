@@ -1,5 +1,5 @@
 variable "security_group_name" {
-  default = "terrafrom-example-instance"
+  default = "terrafrom-stage-instance"
   description = "Name of the security group"
 }
 

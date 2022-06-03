@@ -2,9 +2,9 @@
 terraform {
     backend "s3" {
     bucket         = "terraform-up-and-running-040122"
-    key            = "stage/s3/terraform.tfstate"
+    key            = "prod/terraform.tfstate"
     region         = "us-east-2"
-    dynamodb_table = "terrafrom-up-and-running-locks"
+    dynamodb_table = "terraform-up-and-running-locks"
     encrypt        = true
     }
 }
